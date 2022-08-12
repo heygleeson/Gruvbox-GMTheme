@@ -1,0 +1,61 @@
+{
+	"sp_box_frame": {
+		"position": [
+			[ 11, 8, 5, 5 ],
+			[ 16, 8, 19, 5 ],
+			[ 35, 8, 5, 5 ],
+			[ 11, 13, 5, 24 ],
+			[ 16, 13, 19, 24 ],
+			[ 35, 13, 5, 24 ],
+			[ 11, 37, 5, 5 ],
+			[ 16, 37, 19, 5 ],
+			[ 35, 37, 5, 5 ]
+		],
+		"frame_name": "AssetBrowser/004_assetbrowser_dialogue_texture.png",
+		"colour": "#ffffffff",
+		"mouse_events": "true"
+	},
+
+	"sp_box_frame_down": {
+		"position": [
+			[ 1, 1, 5, 5 ],
+			[ 6, 1, 23, 5 ],
+			[ 29, 1, 5, 5 ],
+			[ 1, 6, 5, 25 ],
+			[ 6, 6, 23, 25 ],
+			[ 29, 6, 5, 25 ],
+			[ 1, 31, 5, 5 ],
+			[ 6, 31, 23, 5 ],
+			[ 29, 31, 5, 5 ]
+		],
+		"frame_name": "sp_box_frame.png",
+		"colour": "#ffffffff",
+		"mouse_events": "true"
+	},
+
+	"sp_box_frame_over": {
+		"position": [
+			[ 73, 1, 5, 5 ],
+			[ 78, 1, 23, 5 ],
+			[ 101, 1, 5, 5 ],
+			[ 73, 6, 5, 25 ],
+			[ 78, 6, 23, 25 ],
+			[ 101, 6, 5, 25 ],
+			[ 73, 31, 5, 5 ],
+			[ 78, 31, 23, 5 ],
+			[ 101, 31, 5, 5 ]
+		],
+		"frame_name": "sp_box_frame.png",
+		"colour": "#ffffffff",
+		"mouse_events": "true"
+	},
+
+  "sp_code_image": {
+    "mouse_events": "false"
+  },
+
+	"sp_label_small": {
+		"font_size": 8,
+		"colour": "#ff93aebd"
+	}
+}

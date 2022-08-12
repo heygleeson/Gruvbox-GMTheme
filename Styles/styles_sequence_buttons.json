@@ -1,0 +1,6 @@
+{
+  "dopesheet_button_up": {
+		base: "button_up", 
+		icon_colour: "#000000FF"
+	}
+}

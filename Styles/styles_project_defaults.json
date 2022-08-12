@@ -1,0 +1,19 @@
+{
+	"room_defaults": {
+		"background_colour": "#ff000000",
+		"grid_colour": "#32ffffff",
+		"select_colour": "#883449fb",
+		"select_lock_colour": "#aaffffff",
+		"properties_colour": "#8898a583",
+		"properties_lock_colour": "#ff98a583",
+		"select_bounds_colour": "#889b86d3",
+		"select_lock_bounds_colour": "#aaffffff",
+		"multi_select_colour": "#889b86d3",
+		"tile_select_colour": "#883449fb",
+		"tile_highlight_colour": "#889b86d3",
+		"tile_inheritance_colour": "#8898a583",
+		"ink_colour": "#883449fb",
+		"default_draw_colour": "#ffffffff",
+		"default_window_colour": "#ff000000"
+	}
+}

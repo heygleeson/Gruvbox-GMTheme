@@ -1,0 +1,141 @@
+{
+	"sp_title_stack": {
+		"label_style": "sp_title_stack_label",
+		"separator_style": "sp_title_stack_separator",
+		"stack_resize": "None",
+		"height": "100%",
+		"left": "0px"
+	},
+
+	"sp_title_stack_first": {
+		"label_style": "sp_title_stack_label_first",
+		"separator_style": "sp_title_stack_separator_first",
+		"stack_resize": "None",
+		"height": "100%",
+		"left": "0px"
+	},
+
+	"sp_title_stack_label": {
+		"font_name": "Oswald",
+		"font_size": 19,
+		"font_stylename": "Light",
+		"margin_left": "6px",
+		"margin_top": "28dpi_px",
+		"auto_ellipsis": "True",
+		"auto_size": "True",
+		"colour": "#ff7cc08e"
+	},
+
+	"sp_title_stack_label_first": {
+		"font_name": "Oswald",
+		"font_size": 19,
+		"font_stylename": "Light",
+		"margin_left": "6px",
+		"margin_top": "20dpi_px",
+		"auto_ellipsis": "True",
+		"auto_size": "True",
+		"colour": "#ff7cc08e"
+	},
+
+	"sp_title_stack_separator": {
+		"margin_top": "36dpi_px",
+		"margin_bottom": "6dpi_px",
+		"width": "3dpi_px",
+		"colour": "#ff93aebd"
+	},
+
+	"sp_title_stack_separator_first": {
+		"margin_top": "28dpi_px",
+		"margin_bottom": "6dpi_px",
+		"width": "3dpi_px",
+		"colour": "#ff93aebd"
+	},
+
+	"sp_stackpanel_banner_slide_buttons": {
+		"bottom": "0px",
+		"stack_resize": "ResizeAll"
+	},
+
+	"sp_banner": {
+		"slide_wait_ms": "4000",
+		"default_image": "StartScreen/banner.png"
+	},
+
+	"sp_banner_slide_button": {
+		"width": "24dpi_px",
+		"height": "24dpi_px",
+		"margin_left": "1px",
+		"frame_name": "",
+		"icon": "StartScreen/slider-thumb.png",
+		"icon_flags": "Centre, KeepAspectRatio, Downscale",
+		"button_over_style": "sp_button_no_frame",
+		"button_down_style": "sp_button_no_frame",
+		"button_over_down_style": "sp_button_no_frame",
+		"up_tint": "#55000000",
+		"down_tint": "#55000000",
+		"mouseover_up_tint": "#88000000",
+		"mouseover_up_focused_tint": "#88000000",
+		"mouseover_down_tint": "#88000000",
+		"mouseover_down_focused_tint": "#88000000",
+		"up_focused_tint": "#55000000",
+		"down_focused_tint": "#55000000"
+	},
+
+	"sp_banner_slide_button_active": {
+		"up_tint": "#4093aebd",
+		"down_tint": "#4093aebd",
+		"mouseover_up_tint": "#8093aebd",
+		"mouseover_up_focused_tint": "#8093aebd",
+		"mouseover_down_tint": "#8093aebd",
+		"mouseover_down_focused_tint": "#8093aebd",
+		"up_focused_tint": "#4093aebd",
+		"down_focused_tint": "#4093aebd"
+	},
+
+	"sp_button_no_frame": {
+		"frame_name": ""
+	},
+
+	"stack_wrap_panel": {
+		"stack_flags": "Wrap",
+		"stack_resize": "ResizeHeight"
+	},
+
+	"sp_button_license": {
+		"position": [
+			[ 1, 1, 2, 2 ],
+			[ 3, 1, 3, 2 ],
+			[ 6, 1, 2, 2 ],
+			[ 1, 3, 2, 3 ],
+			[ 3, 3, 3, 3 ],
+			[ 6, 3, 2, 3 ],
+			[ 1, 6, 2, 2 ],
+			[ 3, 6, 3, 2 ],
+			[ 6, 6, 2, 2 ]
+		],
+		"frame_name": "StartScreen/sp_license_button.png",
+		"button_over_style": "sp_button_license_down",
+		"button_down_style": "sp_button_license_down",
+		"button_over_down_style": "sp_button_license_down",
+		"auto_height": "False",
+		"width": "142dpi_px",
+		"height": "32dpi_px",
+		"margin_bottom": "8dpi_px",
+		"margin_right": "8dpi_px"
+	},
+
+	"sp_button_license_down": {
+		"position": [
+			[ 9, 1, 2, 2 ],
+			[ 11, 1, 3, 2 ],
+			[ 14, 1, 2, 2 ],
+			[ 9, 3, 2, 3 ],
+			[ 11, 3, 3, 3 ],
+			[ 14, 3, 2, 3 ],
+			[ 9, 6, 2, 2 ],
+			[ 11, 6, 3, 2 ],
+			[ 14, 6, 2, 2 ]
+		],
+		"frame_name": "StartScreen/sp_license_button.png"
+	}
+}

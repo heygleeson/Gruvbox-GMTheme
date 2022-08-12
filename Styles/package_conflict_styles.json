@@ -1,0 +1,12 @@
+{
+	"pconflict_item_grid": {
+		"grid_columnlayout": [ "80dpi_px", "80dpi_px", "1*" ],
+		"grid_resize": "ResizeLast",
+		"colour": "#14000000",
+		"mouse_events": "False",
+		"left": "0px",
+		"top": "0px",
+		"height": "24dpi_px",
+		"margin_bottom": "1px"
+	}
+}

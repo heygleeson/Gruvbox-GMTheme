@@ -1,0 +1,16 @@
+{
+	"effect_tex_selector":
+	{
+		grid_columnlayout: ["24dpi_px", "1*"]
+	},
+
+  "effects_prop_stack":{
+    colour: "#00000000", 
+		mouse_events: "false",
+    margin_top: "8dpi_px",
+    margin_bottom: "10dpi_px",
+    stack_order: "TopToBottom",
+    stack_resize: "ResizeHeight"
+  }
+
+}

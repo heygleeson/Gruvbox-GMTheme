@@ -1,0 +1,55 @@
+{
+	"androidsdkcheck_style": {
+		height: "250dpi_px",
+		grid_rowlayout: ["50dpi_px", "50dpi_px", "50dpi_px", "50dpi_px", "50dpi_px", "auto"],
+		grid_columnlayout: ["auto", "auto"]
+	},
+	
+	"androidkeystore_style": {
+		stack_order: "TopToBottom",
+    stack_resize: "ResizeHeight",
+    left: "0px",
+    top: "0px",
+    width: "590dpi_px"
+	},
+
+	"iostvos_cocoapods_style": {
+		stack_order: "TopToBottom",
+    stack_resize: "ResizeHeight",
+    left: "0px",
+    top: "0px",
+    width: "590dpi_px"
+	},
+	
+	"html5advertising_style": {
+		width: "600dpi_px", 
+		height: "150dpi_px"
+	},
+
+	"targets_style": {
+		"colour": "#ffffffff",
+		"width": "600dpi_px"
+	},
+	
+	"device_editor_window": {
+		width: "500dpi_px", 
+		height: "500dpi_px", 
+		top: "6dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark",
+		height_min: "200dpi_px"
+	},
+	
+
+	"deviceeditor_detecting_label": {
+		width: "100%",
+		margin_top: "10dpi_px"
+	},
+	
+	"deviceeditor_scrollpanel": {
+		left: "3dpi_px", 
+		right: "3dpi_px", 
+		top: "3dpi_px", 
+		bottom: "3dpi_px", 
+		scrollpanel_flags: " VerticalScroll, AdjustToScrollBars"
+	}
+}

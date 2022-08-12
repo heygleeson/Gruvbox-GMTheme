@@ -1,0 +1,13 @@
+{
+  "smartguide_style": {
+    "ruler_line_colour": "#ff7cc08e",
+    "ruler_locked_colour": "#ff98a583",
+    "ruler_bg_colour": "#ff232323",
+    "ruler_bg_corner_colour": "#ff282828",
+    "ruler_tick_colour": "#ff444444",
+    "ruler_text_colour": "#ff9b9b9b",
+    "guide_axis_colour": "#ff7cc08e",
+    "guide_offset_colour": "#ff9b86d3",
+    "bounds_colour": "#80808080"
+  }
+}

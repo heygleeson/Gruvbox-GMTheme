@@ -1,0 +1,28 @@
+{
+	"key_label": {
+		"background_color": "#ff21201d",
+		"margin": [ "8dpi_px", "4dpi_px", "8dpi_px", "4dpi_px" ]
+	},
+
+	"plus_label": {
+		"margin": [ "6dpi_px", "4dpi_px", "6dpi_px", "4dpi_px" ]
+	},
+
+	"redefine_keys_style": {
+		"search_box_colour": "#ff36383c",
+		"column_header_colour": "#ff21201d",
+		"odd_cell_colour": "#ff36383c",
+		"even_cell_colour": "#ff21201d",
+		"highlight_cell_colour": "#ff545c66",
+		"location_dropdown_colour": "#ff36383c",
+		"location_dropdown_caption_colour": "#ffffffff",
+		"grid_separator_colour": "#ff36383c",
+		"combo_grid_highlight_colour": "#ff21201d",
+		"conflicts_panel": "#ff36383c",
+		"warning_label": "#ff7cc08e",
+		"suggested_keys_odd": "#ff21201d",
+		"suggested_keys_even": "#ff21201d",
+		"suggested_keys_header": "#ff26bbb8",
+		"suggested_keys_header_text": "#ffffffff"
+	}
+}

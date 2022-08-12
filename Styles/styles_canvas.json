@@ -1,0 +1,822 @@
+{
+  "canvas": {
+    "background_color": "#FFFFFFFF",
+    "width": "100%",
+    "height": "100%",
+    "left": "0px",
+    "top": "0px",
+    "zoom_widget_style": "canvas_widget_style",
+    "bounds_style": "canvas_selection_frame",
+    "bounds_margin": "4dpi_px"
+  },
+
+  "canvas_widget_style": {
+    "tool_flags": "None"
+  },
+
+  "selected_canvas_item_label": {
+    "colour": "#FFFFD68D"
+  },
+
+  "canvas_selection_frame": {
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 8, 4 ],
+      [ 12, 0, 4, 4 ],
+      [ 0, 4, 4, 8 ],
+      [ 4, 4, 8, 8 ],
+      [ 12, 4, 4, 8 ],
+      [ 0, 12, 4, 4 ],
+      [ 4, 12, 8, 4 ],
+      [ 12, 12, 4, 4 ]
+    ],
+    "frame_name": "Alice/HighlightZeroRotation.png",
+    "colour": "#FFFF8422"
+  },
+
+  "canvas_item_bounds_highlight_frame": {
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 8, 4 ],
+      [ 12, 0, 4, 4 ],
+      [ 0, 4, 4, 8 ],
+      [ 4, 4, 8, 8 ],
+      [ 12, 4, 4, 8 ],
+      [ 0, 12, 4, 4 ],
+      [ 4, 12, 8, 4 ],
+      [ 12, 12, 4, 4 ]
+    ],
+    "frame_name": "Alice/HighlightZeroRotation.png",
+    "colour": "#62616161"
+  },
+
+  "canvas_item_bounds_highlight_corner": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 1, 1 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ]
+    ],
+    "frame_name": "Alice/HighlightCorner.png",
+    "colour": "#62616161"
+  },
+
+  "canvas_item_bounds_highlight_line": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 1, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ]
+    ],
+    "frame_name": "Alice/HighlightFrame.png",
+    "colour": "#62616161"
+  },
+
+  "canvas_item_bounds_selected": {
+    "edge_icon_margin": "1.5dpi_px"
+  },
+
+  "canvas_item_bounds_selected_frame": {
+    "position": [
+      [ 0, 0, 9, 9 ],
+      [ 9, 0, 2, 9 ],
+      [ 11, 0, 9, 9 ],
+      [ 0, 9, 9, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 11, 9, 9, 3 ],
+      [ 0, 12, 9, 9 ],
+      [ 9, 12, 2, 9 ],
+      [ 11, 12, 9, 9 ]
+    ],
+    "frame_name": "Alice/SelectedZeroRotation.png",
+    "colour": "#FFCFC236"
+  },
+
+  "canvas_item_bounds_selected_corner": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 7, 7 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ]
+    ],
+    "frame_name": "Alice/SelectedCorner.png",
+    "colour": "#FFCFC236"
+  },
+
+  "canvas_item_bounds_selected_line": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 2, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ],
+      [ 0, 0, 0, 0 ]
+    ],
+    "frame_name": "Alice/SelectedFrame.png",
+    "colour": "#FFCFC236"
+  },
+
+  "canvas_item_aabb_selected_frame": {
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 8, 4 ],
+      [ 12, 0, 4, 4 ],
+      [ 0, 4, 4, 8 ],
+      [ 4, 4, 8, 8 ],
+      [ 12, 4, 4, 8 ],
+      [ 0, 12, 4, 4 ],
+      [ 4, 12, 8, 4 ],
+      [ 12, 12, 4, 4 ]
+    ],
+    "frame_name": "Alice/HighlightZeroRotation.png",
+    "colour": "#FFCFC236"
+  },
+
+  "canvas_item_aabb_multiselected_frame": {
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 8, 4 ],
+      [ 12, 0, 4, 4 ],
+      [ 0, 4, 4, 8 ],
+      [ 4, 4, 8, 8 ],
+      [ 12, 4, 4, 8 ],
+      [ 0, 12, 4, 4 ],
+      [ 4, 12, 8, 4 ],
+      [ 12, 12, 4, 4 ]
+    ],
+    "frame_name": "Alice/HighlightZeroRotation.png",
+    "colour": "#881A23E2"
+  },
+
+  "canvas_item_aabb_highlight_frame": {
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 8, 4 ],
+      [ 12, 0, 4, 4 ],
+      [ 0, 4, 4, 8 ],
+      [ 4, 4, 8, 8 ],
+      [ 12, 4, 4, 8 ],
+      [ 0, 12, 4, 4 ],
+      [ 4, 12, 8, 4 ],
+      [ 12, 12, 4, 4 ]
+    ],
+    "frame_name": "Alice/HighlightZeroRotation.png",
+    "colour": "#62525252"
+  },
+
+  "canvas_window": {
+    "margin_to_item": "16dpi_px",
+    "drop_shadow_spread": "8dpi_px",
+    "drop_shadow_style": "canvas_item_window_drop_shadow"
+  },
+
+  "canvas_window_title_bar": {
+    "height": "26dpi_px",
+    "colour": "#FF5A5A5A",
+    "position": [
+      [ 0, 0, 8, 8 ],
+      [ 8, 0, 12, 8 ],
+      [ 20, 0, 8, 8 ],
+      [ 0, 8, 8, 12 ],
+      [ 8, 8, 12, 12 ],
+      [ 20, 8, 8, 12 ],
+      [ 0, 20, 8, 8 ],
+      [ 8, 20, 12, 8 ],
+      [ 20, 20, 8, 8 ]
+    ],
+    "frame_name": "Sequence/canvas_window_titlebar_frame.png",
+    "label_style": "borderless_title_bar_label"
+  },
+
+  "canvas_window_text_box": {
+    "frame_name": "",
+    "colour": "#FF121212"
+  },
+
+  "canvas_window_flat_button": {
+    "frame_name": "",
+    "height": "22dpi_px",
+    "auto_height": "False",
+    "icon_flags": "Centre",
+    "button_over_style": "canvas_button_no_frame",
+    "button_down_style": "canvas_button_no_frame",
+    "button_over_down_style": "canvas_button_no_frame",
+    "deactivated_style": "canvas_button_deactivated",
+    "reactivated_style": "canvas_button_reactivated",
+    "up_tint": "#FF121212",
+    "down_tint": "#FF6C635C",
+    "up_focused_tint": "#FF121212",
+    "down_focused_tint": "#FF6C635C",
+    "mouseover_up_tint": "#FF5C534C",
+    "mouseover_up_focused_tint": "#FF5C534C",
+    "mouseover_down_tint": "#FF6C635C",
+    "mouseover_down_focused_tint": "#FF6C635C"
+  },
+
+  "canvas_window_flat_light_button": {
+    "frame_name": "",
+    "height": "22dpi_px",
+    "auto_height": "False",
+    "icon_flags": "Centre",
+    "button_over_style": "canvas_button_no_frame",
+    "button_down_style": "canvas_button_no_frame",
+    "button_over_down_style": "canvas_button_no_frame",
+    "deactivated_style": "canvas_button_deactivated",
+    "reactivated_style": "canvas_button_reactivated",
+    "up_tint": "#FF414141",
+    "down_tint": "#FF6C635C",
+    "up_focused_tint": "#FF414141",
+    "down_focused_tint": "#FF6C635C",
+    "mouseover_up_tint": "#FF5C534C",
+    "mouseover_up_focused_tint": "#FF5C534C",
+    "mouseover_down_tint": "#FF6C635C",
+    "mouseover_down_focused_tint": "#FF6C635C"
+  },
+
+  "canvas_toolbar_flat_button_toolbar": {
+    "height": "22dpi_px",
+    "auto_height": "False",
+    "label_colour": "#FFFFFFFF",
+    "default_label_style": "canvas_toolbar_flat_button_toolbar_label"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_label": {
+    "font_size": 11
+  },
+
+  "canvas_toolbar_flat_button_toolbar_not_selected": {
+    "label_colour": "#FFFFFFFF"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_selected": {
+    "label_colour": "#FF64AD03"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_left": {
+    "base": "canvas_toolbar_flat_button_toolbar",
+    "width": "70dpi_px",
+    "button_over_style": "canvas_toolbar_flat_button_toolbar_over_left",
+    "button_down_style": "canvas_toolbar_flat_button_toolbar_down_left",
+    "position": [
+      [ 22, 0, 3, 3 ],
+      [ 25, 0, 10, 3 ],
+      [ 0, 0, 0, 3 ],
+      [ 22, 3, 3, 10 ],
+      [ 25, 3, 10, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 22, 13, 3, 3 ],
+      [ 25, 13, 10, 3 ],
+      [ 0, 0, 0, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_middle": {
+    "base": "canvas_toolbar_flat_button_toolbar",
+    "width": "61dpi_px",
+    "button_over_style": "canvas_toolbar_flat_button_toolbar_middle_over",
+    "button_down_style": "canvas_toolbar_flat_button_toolbar_middle_down",
+    "frame_name": "Alice/canvas_toolbar_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_right": {
+    "base": "canvas_toolbar_flat_button_toolbar",
+    "width": "55dpi_px",
+    "button_over_style": "canvas_toolbar_flat_button_toolbar_over_right",
+    "button_down_style": "canvas_toolbar_flat_button_toolbar_down_right",
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 25, 0, 10, 3 ],
+      [ 35, 0, 3, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 25, 3, 10, 10 ],
+      [ 35, 3, 3, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 25, 13, 10, 3 ],
+      [ 35, 13, 3, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_middle_over": {
+    "position": [
+      [ 41, 0, 3, 3 ],
+      [ 44, 0, 10, 3 ],
+      [ 54, 0, 3, 3 ],
+      [ 41, 3, 3, 10 ],
+      [ 44, 3, 10, 10 ],
+      [ 54, 3, 3, 10 ],
+      [ 41, 13, 3, 3 ],
+      [ 44, 13, 10, 3 ],
+      [ 54, 13, 3, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_middle_down": {
+    "position": [
+      [ 60, 0, 3, 3 ],
+      [ 63, 0, 10, 3 ],
+      [ 73, 0, 3, 3 ],
+      [ 60, 3, 3, 10 ],
+      [ 63, 3, 10, 10 ],
+      [ 73, 3, 3, 10 ],
+      [ 60, 13, 3, 3 ],
+      [ 63, 13, 10, 3 ],
+      [ 73, 13, 3, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_over_left": {
+    "position": [
+      [ 41, 0, 3, 3 ],
+      [ 44, 0, 10, 3 ],
+      [ 0, 0, 0, 3 ],
+      [ 41, 3, 3, 10 ],
+      [ 44, 3, 10, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 41, 13, 3, 3 ],
+      [ 44, 13, 10, 3 ],
+      [ 0, 0, 0, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_down_left": {
+    "position": [
+      [ 60, 0, 3, 3 ],
+      [ 63, 0, 10, 3 ],
+      [ 0, 0, 0, 3 ],
+      [ 60, 3, 3, 10 ],
+      [ 63, 3, 10, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 60, 13, 3, 3 ],
+      [ 63, 13, 10, 3 ],
+      [ 0, 0, 0, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_over_right": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 44, 0, 10, 3 ],
+      [ 54, 0, 3, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 44, 3, 10, 10 ],
+      [ 54, 3, 3, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 44, 13, 10, 3 ],
+      [ 54, 13, 3, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_toolbar_flat_button_toolbar_down_right": {
+    "position": [
+      [ 0, 0, 0, 0 ],
+      [ 63, 0, 10, 3 ],
+      [ 73, 0, 3, 3 ],
+      [ 0, 0, 0, 0 ],
+      [ 63, 3, 10, 10 ],
+      [ 73, 3, 3, 10 ],
+      [ 0, 0, 0, 0 ],
+      [ 63, 13, 10, 3 ],
+      [ 73, 13, 3, 3 ]
+    ],
+    "frame_name": "Alice/canvas_toolbar_rounded_buttons.png"
+  },
+
+  "canvas_window_flat_combobox_panel": {
+    "colour": "#FF121212",
+    "height": "24dpi_px",
+    "display_margin_left": "0",
+    "clip": "",
+    "frame_name": "",
+    "auto_height": "true",
+    "width": "120dpi_px",
+    "drop_down_selector_style": "canvas_window_flat_dropdown_selector",
+    "deactivated_style": "deactivated_combobox",
+    "reactivated_style": "reactivated_combobox"
+  },
+
+  "canvas_window_multiselect_cycle_button": {
+    "frame_name": "",
+    "height": "22dpi_px",
+    "auto_height": "False",
+    "image_padding": [ "0px", "11dpi_px", "0px", "11dpi_px" ],
+    "icon_flags": "Centre",
+    "button_over_style": "canvas_button_no_frame",
+    "button_down_style": "canvas_button_no_frame",
+    "button_over_down_style": "canvas_button_no_frame",
+    "deactivated_style": "canvas_button_deactivated",
+    "reactivated_style": "canvas_button_reactivated",
+    "up_tint": "#FF414141",
+    "down_tint": "#FF6C635C",
+    "up_focused_tint": "#FF414141",
+    "down_focused_tint": "#FF6C635C",
+    "mouseover_up_tint": "#FF5C534C",
+    "mouseover_up_focused_tint": "#FF5C534C",
+    "mouseover_down_tint": "#FF6C635C",
+    "mouseover_down_focused_tint": "#FF6C635C"
+  },
+
+  "canvas_window_flat_dropdown_selector": {
+    "right": "0px",
+    "top": "0px",
+    "width": "24dpi_px",
+    "height": "100%",
+    "frame_name": "",
+    "colour": "#FFF121212"
+  },
+
+  "canvas_window_flat_light_combobox_panel": {
+    "colour": "#FF555555",
+    "height": "24dpi_px",
+    "display_margin_left": "0",
+    "clip": "",
+    "frame_name": "",
+    "auto_height": "true",
+    "width": "120dpi_px",
+    "drop_down_selector_style": "canvas_window_flat_light_dropdown_selector",
+    "drop_down_style": "canvas_window_flat_light_dropdown",
+    "deactivated_style": "deactivated_combobox",
+    "reactivated_style": "reactivated_combobox"
+  },
+
+  "canvas_window_flat_light_dropdown_selector": {
+    "right": "0px",
+    "top": "0px",
+    "width": "24dpi_px",
+    "height": "100%",
+    "frame_name": "",
+    "colour": "#FF555555"
+  },
+
+  "canvas_window_flat_light_combobox_panel_listbox": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [ 0, 0, 3, 3 ],
+      [ 6, 0, 13, 3 ],
+      [ 29, 0, 3, 3 ],
+      [ 0, 4, 3, 16 ],
+      [ 6, 6, 16, 16 ],
+      [ 29, 6, 3, 16 ],
+      [ 0, 29, 3, 3 ],
+      [ 4, 29, 13, 3 ],
+      [ 29, 29, 3, 3 ]
+    ],
+    "frame_name": "Sequence/canvas_window_listbox_frame.png",
+    "selection_colour": "#FF4B4948",
+    "mouse_over_colour": "#FF4B4948",
+    "clip": [ "1px", "1px", "1px", "0px" ]
+  },
+
+  "canvas_window_overlap": {
+    "row_layout": "32dpi_px"
+  },
+
+  "canvas_window_toolbox": {
+    "row_layout": "32dpi_px",
+    "margin_to_item": "16dpi_px",
+    "detach_zone_length": "38dpi_px"
+  },
+
+  "canvas_toolbox_button_up": {
+    "frame_name": "",
+    "auto_height": "False",
+    "height": "100%",
+    "left": "0px",
+    "right": "0px",
+    "icon_flags": "Centre",
+    "button_over_style": "canvas_button_no_frame",
+    "button_down_style": "canvas_button_no_frame",
+    "button_over_down_style": "canvas_button_no_frame",
+    "deactivated_style": "canvas_button_deactivated",
+    "reactivated_style": "canvas_button_reactivated",
+    "up_tint": "#FF1F1F1F",
+    "down_tint": "#FF9F8565",
+    "up_focused_tint": "#FF1F1F1F",
+    "down_focused_tint": "#FF9F8565",
+    "mouseover_up_tint": "#FF5C534C",
+    "mouseover_up_focused_tint": "#FF5C534C",
+    "mouseover_down_tint": "#FF9F8565",
+    "mouseover_down_focused_tint": "#FF9F8565"
+  },
+
+  "canvas_toolbox_events_button_up": {
+    "base": "canvas_toolbox_button_up",
+    "vector_icon_size": "15dpi_px"
+  },
+
+  "canvas_event_notification_image": {
+    "colour": "#FF1919BF"
+  },
+
+  "canvas_toolbox_addaction_button_up": {
+    "base": "canvas_toolbox_button_up",
+    "vector_icon_size": "16dpi_px"
+  },
+
+  "canvas_toolbox_edit_button_up": {
+    "base": "canvas_toolbox_button_up",
+    "vector_icon_size": "15dpi_px"
+  },
+
+  "canvas_toolbox_delete_button_up": {
+    "base": "canvas_toolbox_button_up",
+    "image_padding": [ "0px", "0px", "0px", "1dpi_px" ],
+    "vector_icon_size": "16dpi_px"
+  },
+
+  "canvas_overlap_button_up": {
+    "base": "canvas_toolbox_button_up",
+    "image_padding": [ "4px" ]
+  },
+
+  "canvas_button_deactivated": {
+    "label_colour": "#40ffffff",
+    "mouse_events": "false"
+  },
+
+  "canvas_button_reactivated": {
+    "label_colour": "#ffffffff",
+    "mouse_events": "true"
+  },
+
+  "canvas_button_no_frame": {
+    "frame_name": ""
+  },
+
+  "canvas_item_window_frame": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 24, 4 ],
+      [ 28, 0, 4, 4 ],
+      [ 0, 4, 4, 24 ],
+      [ 4, 4, 24, 24 ],
+      [ 28, 4, 4, 24 ],
+      [ 0, 28, 4, 4 ],
+      [ 4, 28, 24, 4 ],
+      [ 28, 28, 4, 4 ]
+    ],
+    "frame_name": "Sequence/canvas_window_frame.png"
+  },
+
+  "canvas_item_bordered_window_frame": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 24, 4 ],
+      [ 28, 0, 4, 4 ],
+      [ 0, 4, 4, 24 ],
+      [ 4, 4, 24, 24 ],
+      [ 28, 4, 4, 24 ],
+      [ 0, 28, 4, 4 ],
+      [ 4, 28, 24, 4 ],
+      [ 28, 28, 4, 4 ]
+    ],
+    "frame_name": "Sequence/canvas_window_bordered_frame.png"
+  },
+
+  "canvas_item_window_drop_shadow": {
+    "position": [
+      [ 0, 0, 14, 14 ],
+      [ 14, 0, 1, 14 ],
+      [ 15, 0, 13, 14 ],
+      [ 0, 14, 14, 1 ],
+      [ 14, 14, 1, 1 ],
+      [ 15, 14, 13, 1 ],
+      [ 0, 15, 14, 13 ],
+      [ 14, 15, 1, 13 ],
+      [ 15, 15, 13, 13 ]
+    ],
+    "frame_name": "Window/window_drop_shadow.png",
+    "colour": "#60232323"
+  },
+
+  "canvas_item_bordered_window_frame_light": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 24, 4 ],
+      [ 28, 0, 4, 4 ],
+      [ 0, 4, 4, 24 ],
+      [ 4, 4, 24, 24 ],
+      [ 28, 4, 4, 24 ],
+      [ 0, 28, 4, 4 ],
+      [ 4, 28, 24, 4 ],
+      [ 28, 28, 4, 4 ]
+    ],
+    "frame_name": "Sequence/canvas_window_bordered_frame_light.png"
+  },
+
+  "canvas_close_button_up": {
+    "base": "close_button_up",
+    "top": "5px",
+    "right": "5px",
+    "margin_bottom": "7px",
+    "icon_colour": "#FFEEEEEE"
+  },
+
+  "canvas_item_events_listbox": {
+    "multi_select": "True"
+  },
+
+  "canvas_item_image": {
+    "height": "20dpi_px",
+    "width": "20dpi_px",
+    "margin_right": "6dpi_px",
+    "colour": "#ffffffff",
+    "background_color": "#ff3E3837",
+    "mouse_events": "false",
+    "image_padding": [ "1px" ],
+    "image_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "canvas_item_image_multiselect": {
+    "height": "20dpi_px",
+    "width": "20dpi_px",
+    "margin_right": "6dpi_px",
+    "colour": "#ffffffff",
+    "background_color": "#ff414141",
+    "mouse_events": "false",
+    "image_padding": [ "1px" ],
+    "image_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "canvas_item_underscore_multiselect": {
+    "colour": "#ff747474",
+    "mouse_events": "False"
+  },
+
+  "canvas_item_underscore_multiselect_dark": {
+    "colour": "#FF363636",
+    "mouse_events": "False"
+  },
+
+  "canvas_combobox_item_multiselect": {
+    "colour": "#FF555555"
+  },
+
+  "canvas_toolbox_drag_handle": {
+    "colour": "#FF4E4E4E",
+    "background_color": "#FF1F1F1F",
+    "vector_icon_size": "9dpi_px"
+  },
+
+  "canvas_toolbox_target_image": {
+    "height": "26dpi_px",
+    "width": "26dpi_px",
+    "colour": "#FFFFFFFF",
+    "background_color": "#FF1F1F1F",
+    "mouse_events": "True",
+    "image_padding": [ "2dpi_px" ],
+    "image_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "canvas_toolbox_close_button": {
+    "default_icon_style": "canvas_toolbox_close_button_image",
+    "font_icon": [ "General_IDE_Icons", "IDE_close_icon_semibold" ],
+    "icon_colour": "#FFA09389",
+    "vector_icon_size": "8dpi_px",
+    "icon_flags": "Resize, Centre, KeepAspectRatio",
+    "frame_name": "",
+    "auto_height": "False",
+    "height": "15dpi_px",
+    "top": "1px",
+    "left": "1px",
+    "right": "1px",
+    "button_over_style": "canvas_button_no_frame",
+    "button_down_style": "canvas_button_no_frame",
+    "button_over_down_style": "canvas_button_no_frame",
+    "deactivated_style": "canvas_button_deactivated",
+    "reactivated_style": "canvas_button_reactivated",
+    "up_tint": "#FF161616",
+    "down_tint": "#FF9F8565",
+    "up_focused_tint": "#FF161616",
+    "down_focused_tint": "#FF9F8565",
+    "mouseover_up_tint": "#FF5C534C",
+    "mouseover_up_focused_tint": "#FF5C534C",
+    "mouseover_down_tint": "#FF9F8565",
+    "mouseover_down_focused_tint": "#FF9F8565"
+  },
+
+  "canvas_toolbox_close_button_image": {
+    "right": "1dpi_px",
+    "left": "",
+    "top": "0px",
+    "bottom": "0px"
+  },
+
+  "canvas_borderless_list_box": {
+    "base": "borderless_list_box",
+    "vertical_scrollbar_style": "canvas_scroll_bar",
+    "horizontal_scrollbar_style": "canvas_scroll_bar"
+  },
+
+  "canvas_scroll_panel": {
+    "vertical_scrollbar_style": "canvas_scroll_bar",
+    "horizontal_scrollbar_style": "canvas_scroll_bar"
+  },
+
+  "canvas_scroll_bar": {
+    "frame_name": "",
+    "colour": "#FF4e4e4e",
+    "slider_style": "canvas_scroll_bar_slider",
+    "scroll_buttons": "False",
+    "width": "7dpi_px"
+  },
+
+  "canvas_scroll_bar_slider": {
+    "frame_name": "",
+    "colour": "#FF4e4e4e",
+    "thumb_style": "canvas_scroll_bar_slider_thumb",
+    "slider_bar_style": "canvas_scroll_bar_slider_bar",
+    "slider_bar_fill_style": "canvas_scroll_bar_slider_bar_fill",
+    "slider_bar_fill_not_focused_style": "canvas_scroll_bar_slider_bar_not_focused",
+    "width": "100%",
+    "margin_left": "",
+    "margin_right": ""
+  },
+
+  "canvas_scroll_bar_slider_thumb": {
+    "frame_name": "",
+    "up_tint": "#FF767676",
+    "down_tint": "#FFa2a2a2",
+    "mouseover_up_tint": "#FF909090",
+    "mouseover_up_focused_tint": "#FF909090",
+    "mouseover_down_tint": "#FFa2a2a2",
+    "mouseover_down_focused_tint": "#FFa2a2a2",
+    "up_focused_tint": "#FF767676",
+    "down_focused_tint": "#FF767676",
+    "button_over_style": "canvas_scroll_bar_slider_thumb",
+    "button_down_style": "canvas_scroll_bar_slider_thumb",
+    "button_over_down_style": "canvas_scroll_bar_slider_thumb",
+    "width": "100%",
+    "margin_left": "",
+    "margin_right": ""
+  },
+
+  "canvas_scroll_bar_slider_bar": {
+    "frame_name": "",
+    "right": "1px",
+    "width": "100%",
+    "margin_left": "",
+    "margin_right": "",
+    "colour": "#FF4e4e4e"
+  },
+
+  "canvas_scroll_bar_slider_bar_fill": {
+    "frame_name": "",
+    "colour": "#00000000"
+  },
+
+  "canvas_scroll_bar_slider_bar_not_focused": {
+    "frame_name": "",
+    "colour": "#00000000"
+  },
+
+  "canvas_toolbox_gizmo_image": {
+    "width": "16dpi_px",
+    "height": "16dpi_px",
+    "icon": "Buttons/icon_transform_gizmo_move.png",
+    "icon_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "grid_container_panel_backdrop": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [ 0, 0, 4, 4 ],
+      [ 4, 0, 24, 4 ],
+      [ 28, 0, 4, 4 ],
+      [ 0, 4, 4, 24 ],
+      [ 4, 4, 24, 24 ],
+      [ 28, 4, 4, 24 ],
+      [ 0, 28, 4, 4 ],
+      [ 4, 28, 24, 4 ],
+      [ 28, 28, 4, 4 ]
+    ],
+    "frame_name": "canvas_window_listbox_frame.png"
+  }
+}

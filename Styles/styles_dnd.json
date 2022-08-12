@@ -1,0 +1,29 @@
+{
+	"dnd_category_variables": {
+		"color": "#ff98a583"
+	},
+
+	"dnd_category_conditionals": {
+		"color": "#ff26bbb8"
+	},
+
+	"dnd_category_functions": {
+		"color": "#ff3449fb"
+	},
+
+	"dnd_category_constants": {
+		"color": "#ff7cc08e"
+	},
+
+	"dnd_category_drawing": {
+		"color": "#ff1980fe"
+	},
+
+	"dnd_category_audio": {
+		"color": "#ff9b86d3"
+	},
+
+	"dnd_category_particles": {
+		"color": "#ff7cc08e"
+	}
+}

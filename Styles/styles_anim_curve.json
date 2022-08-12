@@ -1,0 +1,9 @@
+{
+	"animation_curve_gadget": {
+		grid_colour: "#F0404040",
+		text_column_color: "#80404040",
+		highlight_color: "#FF8E8E84",
+		anim_curve_colors_dual: ["#FFE68505", "#FF0800E8"],
+		anim_curve_colors_rgba: ["#FF0800E8", "#FF02ED31", "#FFE68505", "#FFEEEEEE"]
+	}
+}

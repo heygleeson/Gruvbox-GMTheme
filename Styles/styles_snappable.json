@@ -1,0 +1,49 @@
+{
+	"snappable_orientation_dropdown": {
+		font_icon: ["General_IDE_Icons", "IDE_icon_arrow_down"], 
+		vector_icon_size: "10dpi_px", 
+		clip: ["3dpi_px", "0dpi_px", "3dpi_px", "0dpi_px"]
+	},
+
+  "snappable_selection_btn": {
+    width: "24dpi_px", 
+    height: "24dpi_px", 
+    vector_icon_size: "20dpi_px",
+    clip: [ "2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px" ]
+  },
+	
+	"snappable_selection_btn_right": {
+		base: "snappable_selection_btn",
+		font_icon: ["dope_sheet_icon_font", "ds_snap_right"]
+	},
+	
+	"snappable_selection_btn_left": {
+		base: "snappable_selection_btn",
+		font_icon: ["dope_sheet_icon_font", "ds_snap_left"]
+	},
+	
+	"snappable_selection_btn_top": {
+		base: "snappable_selection_btn",
+		font_icon: ["dope_sheet_icon_font", "ds_snap_top"]
+	},
+	
+	"snappable_selection_btn_bottom": {
+		base: "snappable_selection_btn",
+		font_icon: ["dope_sheet_icon_font", "ds_snap_bottom"]
+	},
+
+  "snappable_selection_btn_popout": {
+    base: "snappable_selection_btn",
+    font_icon: [ "dope_sheet_icon_font", "ds_pop_out" ]
+  },
+
+  "snappable_selection_btn_reset": {
+    base: "snappable_selection_btn",
+    font_icon: [ "dope_sheet_icon_font", "ds_key_loop" ]
+  },
+
+  "snappable_widget_container": {
+    base: "grid_container",
+    splitter_thickness: "12dpi_px"
+  }
+}

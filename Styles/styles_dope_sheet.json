@@ -1,0 +1,1169 @@
+{
+	"dope_sheet": {
+		splitter_thickness: "6dpi_px", 
+		auto_size_keys: "True", 
+		auto_size_headers: "True", 
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png", 
+		position: [
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], 
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], 
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]
+				], 
+		colour: "#FFFFFFFF",
+	},
+	
+	"dope_sheet_panel": {
+		header_height: "49dpi_px", 
+		tick_indicator_color: "#FFFFFFFF", 
+		track_bg_indicator_colour: "#39000000", 
+		show_in_multiples_of: 2, 
+		font_size: 9, 
+		key_width: "16dpi_px", 
+		text_color: "#FFA3A3A3", 
+		pin_text_color: "#FFFFFFFF", 
+		border_colour: "#FF000000", 
+		timeline_bg_colour: "#FF373331", 
+		timeline_seek_bg_colour: "#FF504826", 
+		timeline_min_subdiv_range: "10dpi_px", 
+		empty_style: "dope_sheet_panel_empty", 
+		normal_style: "dope_sheet_panel", 
+		tracks_key_padding: 2,
+    panel_bg_colour:"#FF2b2b2b"
+	},
+	
+	"dope_sheet_panel_empty": {
+		base: "dope_sheet_panel", 
+		tick_indicator_color: "#99FFFFFF", 
+		track_bg_indicator_colour: "#00000000", 
+		text_color: "#00A3A3A3", 
+		pin_text_color: "#99FFFFFF", 
+		timeline_bg_colour: "#FF303031", 
+		timeline_seek_bg_colour: "#FF3D3D3E"
+	},
+	
+	"dope_sheet_tracks_panel": {
+	
+	},
+	
+	"dope_sheet_track_locked_overlay": {
+		width: "100%", 
+		height: "21dpi_px", 
+		top: "0dpi_px", 
+		left: "0dpi_px", 
+		frame_name: "DopeSheet/ds_key_lock.png", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 147, 21], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_options: "Center_Repeat", 
+		colour: "#BBFFFFFF"
+	},
+	
+	"dope_sheet_track": {
+		border_alpha: 128, 
+		background_alpha: 77, 
+		shadow_image: "DopeSheet/ds_group_track_bg_shadow.png", 
+		track_bg_color: "#FF232323", 
+		style_hidden: "dope_sheet_track_hidden", 
+		style_normal: "dope_sheet_track", 
+		style_selected: "dope_sheet_track_selected", 
+		style_disabled: "dope_sheet_track_disabled", 
+		style_locked: "dope_sheet_track_locked", 
+		overlay_style: ""
+	},
+	
+	"dope_sheet_track_selected": {
+		border_alpha: 128, 
+		background_alpha: 102, 
+		track_bg_color: "#FF786B61"
+	},
+	
+	"dope_sheet_track_hidden": {
+		track_bg_color: "#FF282828", 
+		border_alpha: 128, 
+		background_alpha: 0
+	},
+	
+	"dope_sheet_track_disabled": {
+		base: "dope_sheet_track"
+	},
+	
+	"dope_sheet_track_locked": {
+		overlay_style: "dope_sheet_track_locked_overlay", 
+		track_bg_color: "#FF282828"
+	},
+	
+	"dope_sheet_hierarchy": {
+		height: "100%", 
+		width: "100%", 
+		hide_tree_lines_at_root: "False", 
+		left: "1dpi_px", 
+		right: "1dpi_px"
+	},
+	
+	"dope_sheet_track_hierarchy": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		top: "0dpi_px"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_container": {
+		stack_resize: "ResizeWidth"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_btn": {
+		frame_name: "", 
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#00000000", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#00000000", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_prev": {
+		base: "dope_sheet_track_hierarchy_keynav_btn", 
+		width: "8dpi_px", 
+		height: "21dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_prevkey"], 
+		vector_icon_size: "21dpi_px", 
+		clip: ["0dpi_px", "1dpi_px", "0dpi_px", "1dpi_px"], 
+		colour: "#FFCBCBCB", 
+		icon_colour: "#FFCBCBCB", 
+		deactivated_style: "dope_sheet_track_hierarchy_keynav_prev_deactivated"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_prev_deactivated": {
+		base: "dope_sheet_track_hierarchy_keynav_prev", 
+		colour: "#00000000", 
+		icon_colour: "#00000000"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_next": {
+		base: "dope_sheet_track_hierarchy_keynav_btn", 
+		width: "8dpi_px", 
+		height: "21dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_nextkey"], 
+		vector_icon_size: "21dpi_px", 
+		clip: ["0dpi_px", "1dpi_px", "0dpi_px", "1dpi_px"], 
+		colour: "#FFCBCBCB", 
+		icon_colour: "#FFCBCBCB", 
+		deactivated_style: "dope_sheet_track_hierarchy_keynav_next_deactivated"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_next_deactivated": {
+		base: "dope_sheet_track_hierarchy_keynav_next", 
+		colour: "#00000000", 
+		icon_colour: "#00000000"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon": {
+		base: "dope_sheet_track_hierarchy_keynav_btn", 
+		width: "9dpi_px", 
+		height: "21dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_indicator"], 
+		vector_icon_size: "9dpi_px", 
+		margin_left: "2dpi_px", 
+		margin_right: "2dpi_px", 
+		top: "6dpi_px", 
+		icon_colour: "#FFFFC600"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon_delta": {
+		base: "dope_sheet_track_hierarchy_keynav_icon", 
+		icon_colour: "#FF00AFFF"
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon_disabled": {
+		base: "dope_sheet_track_hierarchy_keynav_icon", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_indicator_line"]
+	},
+	
+	"dope_sheet_track_hierarchy_keynav_icon_disabled_delta": {
+		base: "dope_sheet_track_hierarchy_keynav_icon_disabled", 
+		icon_colour: "#FF00AFFF"
+	},
+	
+	"dope_sheet_track_hierarchy_btn": {
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		margin_right: "11dpi_px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "DopeSheet/ds_trackpanel_icon_bg.png", 
+		colour: "#33FFFFFF", 
+		icon_colour: "#00FFFFFF", 
+		up_tint: "#33FFFFFF", 
+		down_tint: "#33FFFFFF", 
+		mouseover_up_tint: "#33FFFFFF", 
+		mouseover_down_tint: "#33FFFFFF", 
+		up_focused_tint: "#33FFFFFF", 
+		down_focused_tint: "#33FFFFFF", 
+		mouseover_up_focused_tint: "#33FFFFFF", 
+		mouseover_down_focused_tint: "#33FFFFFF", 
+		button_down_style: "dope_sheet_track_hierarchy_btn_down", 
+		button_over_down_style: "dope_sheet_track_hierarchy_btn_down", 
+		button_over_style: "dope_sheet_track_hierarchy_btn_down"
+	},
+	
+	"dope_sheet_track_hierarchy_btn_down": {
+		frame_name: "DopeSheet/ds_trackpanel_icon_bg.png", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				]
+	},
+	
+	"dope_sheet_track_hierarchy_btn_focus": {
+		base: "dope_sheet_track_hierarchy_btn", 
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#00000000", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#00000000", 
+		mouseover_down_focused_tint: "#00000000", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_isolate"], 
+		vector_icon_size: "18dpi_px", 
+		width: "18dpi_px", 
+		height: "18dpi_px", 
+		margin_right: "-3dpi_px"
+	},
+	
+	"dope_sheet_track_hierarchy_btn_visible": {
+		base: "dope_sheet_track_hierarchy_btn", 
+		vector_icon_size: "17dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_visible"], 
+		clip: ["-1px", "-1px", "-2px", "-1px"]
+	},
+	
+	"dope_sheet_track_hierarchy_btn_lock": {
+		base: "dope_sheet_track_hierarchy_btn", 
+		vector_icon_size: "18dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_lock"], 
+		clip: ["-3px", "-4px", "-3px", "-2px"]
+	},
+	
+	"dope_sheet_track_hierarchy_btn_tag": {
+		base: "dope_sheet_track_hierarchy_btn", 
+		vector_icon_size: "18dpi_px", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_event"], 
+		clip: ["-3dpi_px", "-2dpi_px", "-3dpi_px", "-4dpi_px"]
+	},
+	
+	"dope_sheet_hierarchy_node_panel": {
+		stack_resize: "None", 
+		stack_flags: "FullSizeInternalPanel"
+	},
+	
+	"dope_sheet_column_splitter": {
+		splitter_anchor: "First"
+	},
+	
+	"dope_sheet_key": {
+		can_move: "True", 
+		can_resize: "True", 
+		resize_cursor: "Resize_Horizontal", 
+		resize_margin: "3dpi_px", 
+		border_alpha: 255, 
+		background_alpha: 128, 
+		style_selected: "dope_sheet_key_selected", 
+		style_normal: "dope_sheet_key", 
+		style_disabled: "dope_sheet_key_disabled", 
+		style_hidden: "dope_sheet_key_hidden", 
+		style_locked: "dope_sheet_key_locked"
+	},
+	
+	"dope_sheet_key_selected": {
+	
+	},
+	
+	"dope_sheet_key_disabled": {
+	
+	},
+	
+	"dope_sheet_key_hidden": {
+	
+	},
+	
+	"dope_sheet_key_locked": {
+	
+	},
+	
+	"dope_sheet_pin": {
+		position: [
+					[0, 0, 2, 2], [2, 0, 8, 2], [10, 0, 2, 2], 
+					[0, 2, 2, 8], [2, 2, 8, 8], [10, 2, 2, 8], 
+					[0, 10, 2, 2], [2, 10, 8, 2], [10, 10, 2, 2]
+				], 
+		frame_name: "DopeSheet/dopesheet_pin.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		top: "0dpi_px", 
+		width: "22dpi_px", 
+		auto_size: "True", 
+		line_color: "#FFFFFFFF", 
+		line_offset_x: "1px", 
+		line_offset_y: "14dpi_px"
+	},
+	
+	"dope_sheet_head_pin": {
+		position: [
+					[0, 0, 5, 1], [5, 0, 1, 1], [6, 0, 5, 1], 
+					[0, 1, 5, 6], [5, 1, 1, 6], [6, 1, 5, 6], 
+					[0, 7, 5, 5], [5, 7, 1, 5], [6, 7, 5, 5]
+				], 
+		frame_name: "DopeSheet/ds_playhead.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		top: "12dpi_px", 
+		width: "11dpi_px", 
+		height: "12dpi_px", 
+		auto_size: "False", 
+		line_color: "#FF6DCAFF", 
+		line_offset_x: "6dpi_px", 
+		line_offset_y: "24dpi_px", 
+		offset_x: "-6dpi_px", 
+		offset_y: "0dpi_px", 
+		render_order: 4
+	},
+	
+	"dope_sheet_pin_end": {
+		position: [
+					[11, 0, 1, 6], [12, 0, 3, 6], [15, 0, 3, 6], 
+					[11, 7, 1, 1], [12, 7, 3, 1], [15, 7, 3, 1], 
+					[11, 8, 1, 6], [12, 8, 3, 6], [15, 8, 3, 6]
+				], 
+		frame_name: "DopeSheet/ds_timeline_range.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		top: "0dpi_px", 
+		auto_size: "False", 
+		height: "13dpi_px", 
+		width: "7dpi_px", 
+		colour: "#FFD2FF00", 
+		line_color: "#FFD2FF00", 
+		line_offset_x: "7dpi_px", 
+		line_offset_y: "13dpi_px", 
+		show_key: "False", 
+		render_order: 2, 
+		left_align: "False"
+	},
+	
+	"dope_sheet_range_pin_start": {
+		position: [
+					[0, 0, 1, 6], [1, 0, 3, 6], [4, 0, 3, 6], 
+					[0, 7, 1, 1], [1, 7, 3, 1], [4, 7, 3, 1], 
+					[0, 8, 1, 14], [1, 8, 3, 14], [4, 8, 3, 14]
+				], 
+		frame_name: "DopeSheet/ds_timeline_range.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		top: "12dpi_px", 
+		auto_size: "False", 
+		height: "22dpi_px", 
+		width: "7dpi_px", 
+		colour: "#FF6F6FFF", 
+		line_color: "#FF6F6FFF", 
+		line_offset_x: "1px", 
+		line_offset_y: "34dpi_px", 
+		show_key: "False", 
+		render_order: 1
+	},
+	
+	"dope_sheet_range_pin_end": {
+		position: [
+					[11, 0, 1, 6], [12, 0, 3, 6], [15, 0, 3, 6], 
+					[11, 7, 1, 1], [12, 7, 3, 1], [15, 7, 3, 1], 
+					[11, 8, 1, 14], [12, 8, 3, 14], [15, 8, 3, 14]
+				], 
+		frame_name: "DopeSheet/ds_timeline_range.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		top: "12dpi_px", 
+		auto_size: "False", 
+		height: "22dpi_px", 
+		width: "7dpi_px", 
+		colour: "#FF6F6FFF", 
+		line_color: "#FF6F6FFF", 
+		line_offset_x: "100%", 
+		line_offset_y: "34dpi_px", 
+		show_key: "False", 
+		render_order: 1, 
+		left_align: "False", 
+		clamp_min_offset: 1
+	},
+	
+	"dope_sheet_zoom_pin_start": {
+		position: [
+					[0, 0, 1, 3], [1, 0, 3, 3], [4, 0, 4, 3], 
+					[0, 3, 1, 9], [1, 3, 3, 9], [4, 3, 4, 9], 
+					[0, 12, 1, 3], [1, 12, 3, 3], [4, 12, 4, 3]
+				], 
+		frame_name: "DopeSheet/ds_timeline_zoom.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		auto_size: "False", 
+		width: "8dpi_px", 
+		height: "15dpi_px", 
+		colour: "#FFFFFFFF", 
+		render_order: 1
+	},
+	
+	"dope_sheet_zoom_pin_end": {
+		position: [
+					[34, 0, 4, 3], [38, 0, 3, 3], [41, 0, 1, 3], 
+					[34, 3, 4, 9], [38, 3, 3, 9], [41, 3, 1, 9], 
+					[34, 12, 4, 3], [38, 12, 3, 3], [41, 12, 1, 3]
+				], 
+		frame_name: "DopeSheet/ds_timeline_zoom.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		auto_size: "False", 
+		width: "8dpi_px", 
+		height: "15dpi_px", 
+		left_align: "False", 
+		colour: "#FFFFFFFF", 
+		render_order: 1
+	},
+	
+	"dope_sheet_zoom_bar_bg": {
+		position: [
+					[4, 0, 1, 4], [5, 0, 2, 4], [7, 0, 1, 4], 
+					[4, 4, 1, 8], [5, 4, 2, 8], [7, 4, 1, 8], 
+					[4, 12, 1, 3], [5, 12, 2, 3], [7, 12, 1, 3]
+				], 
+		frame_name: "DopeSheet/ds_timeline_zoom_bg.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		width: "100%", 
+		height: "15dpi_px", 
+		top: "0dpi_px", 
+		colour: "#FFFFFFFF", 
+		right: "14dpi_px", 
+		left: "0dpi_px"
+	},
+	
+	"dope_sheet_zoom_bar_bg_disabled": {
+		position: [
+					[0, 0, 1, 4], [1, 0, 2, 4], [3, 0, 1, 4], 
+					[0, 4, 1, 8], [1, 4, 2, 8], [3, 4, 1, 8], 
+					[0, 12, 1, 3], [1, 12, 2, 3], [3, 12, 1, 3]
+				], 
+		frame_name: "DopeSheet/ds_timeline_zoom_bg.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		width: "100%", 
+		height: "15dpi_px", 
+		top: "0dpi_px", 
+		colour: "#FFFFFFFF", 
+		right: "14dpi_px", 
+		left: "0dpi_px"
+	},
+	
+	"dope_sheet_zoom_bar": {
+		position: [
+					[24, 4, 1, 1], [25, 4, 6, 1], [31, 4, 1, 1], 
+					[24, 5, 1, 5], [25, 5, 6, 5], [31, 5, 1, 5], 
+					[24, 10, 1, 1], [25, 10, 6, 1], [31, 10, 1, 1]
+				], 
+		frame_name: "DopeSheet/ds_timeline_zoom.png", 
+		frame_options: "Frame_DPI_Stretch", 
+		width: "100%", 
+		height: "7dpi_px", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"faint_visible_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"faint_visible_checkbox_stack": {
+		deactivated_style: "deactivated_faint_visible_checkbox_stack", 
+		reactivated_style: "reactivated_faint_visible_checkbox_stack"
+	},
+	
+	"faint_visible_checkbox_highlighted": {
+		colour: "#22000000", 
+		frame_name: ""
+	},
+	
+	"faint_visible_checkbox_tick": {
+		colour: "#B4ffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_visible.png"
+	},
+	
+	"faint_visible_checkbox_untick": {
+		colour: "#60ffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_invisible.png"
+	},
+	
+	"deactivated_faint_visible_checkbox_stack": {
+		mouse_events: "false", 
+		base_style: "deactivated_faint_visible_checkbox"
+	},
+	
+	"reactivated_faint_visible_checkbox_stack": {
+		mouse_events: "true", 
+		base_style: "faint_visible_checkbox"
+	},
+	
+	"deactivated_faint_visible_checkbox_tick": {
+		colour: "#40ffffff"
+	},
+	
+	"deactivated_faint_visible_checkbox_untick": {
+		colour: "#40ffffff"
+	},
+	
+	"inherit_checkbox": {
+		colour: "#00000000", 
+		width: "15dpi_px", 
+		height: "15dpi_px"
+	},
+	
+	"inherit_checkbox_stack": {
+		deactivated_style: "deactivated_inherit_checkbox_stack", 
+		reactivated_style: "reactivated_inherit_checkbox_stack"
+	},
+	
+	"inherit_checkbox_highlighted": {
+		colour: "#22000000", 
+		frame_name: ""
+	},
+	
+	"inherit_checkbox_tick": {
+		colour: "#B4ffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ObjectEditor/MenuIcons/icon_IDE_parent.png"
+	},
+	
+	"inherit_checkbox_untick": {
+		colour: "#60ffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ObjectEditor/MenuIcons/icon_IDE_overridden.png"
+	},
+	
+	"deactivated_inherit_checkbox_stack": {
+		mouse_events: "false", 
+		base_style: "deactivated_inherit_checkbox"
+	},
+	
+	"reactivated_inherit_checkbox_stack": {
+		mouse_events: "true", 
+		base_style: "inherit_checkbox"
+	},
+	
+	"deactivated_inherit_checkbox_tick": {
+		colour: "#20ffffff"
+	},
+	
+	"deactivated_inherit_checkbox_untick": {
+		colour: "#20ffffff"
+	},
+	
+	"enabled_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"enabled_checkbox_stack": {
+		deactivated_style: "deactivated_enabled_checkbox_stack", 
+		reactivated_style: "reactivated_enabled_checkbox_stack"
+	},
+	
+	"enabled_checkbox_highlighted": {
+		colour: "#22000000", 
+		frame_name: ""
+	},
+	
+	"enabled_checkbox_tick": {
+		colour: "#B4e8e8e8", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Alice/icon_enabled.png"
+	},
+	
+	"enabled_checkbox_untick": {
+		colour: "#606060ff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Alice/icon_disabled.png"
+	},
+	
+	"deactivated_enabled_checkbox_stack": {
+		mouse_events: "false", 
+		base_style: "deactivated_enabled_checkbox"
+	},
+	
+	"reactivated_enabled_checkbox_stack": {
+		mouse_events: "true", 
+		base_style: "enabled_checkbox"
+	},
+	
+	"deactivated_enabled_checkbox_tick": {
+		colour: "#40e8e8e8"
+	},
+	
+	"deactivated_enabled_checkbox_untick": {
+		colour: "#406060ff"
+	},
+	
+	"track_link_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"track_link_checkbox_stack": {
+		deactivated_style: "deactivated_track_link_checkbox_stack", 
+		reactivated_style: "reactivated_track_link_checkbox_stack"
+	},
+	
+	"track_link_checkbox_highlighted": {
+		colour: "#22000000", 
+		frame_name: ""
+	},
+	
+	"track_link_checkbox_tick": {
+		colour: "#ECFF9933", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "DopeSheet/icon_link_track.png"
+	},
+	
+	"track_link_checkbox_untick": {
+		colour: "#ACFFFFFF", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "DopeSheet/icon_link_track.png"
+	},
+	
+	"track_link_checkbox_awaiting_link": {
+	
+	},
+	
+	"track_link_checkbox_awaiting_link_tick": {
+		colour: "#AC1A75FF"
+	},
+	
+	"track_link_checkbox_awaiting_link_untick": {
+		colour: "#AC1A75FF"
+	},
+	
+	"deactivated_track_link_checkbox_stack": {
+		mouse_events: "false", 
+		base_style: "deactivated_track_link_checkbox"
+	},
+	
+	"reactivated_track_link_checkbox_stack": {
+		mouse_events: "true", 
+		base_style: "track_link_checkbox"
+	},
+	
+	"deactivated_track_link_checkbox_tick": {
+		colour: "#40e8e8e8"
+	},
+	
+	"deactivated_track_link_checkbox_untick": {
+		colour: "#406060ff"
+	},
+	
+	"dopesheet_track_panel_container": {
+		base: "grid_container"
+	},
+	
+	"dopesheet_track_panel_header": {
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_grid_bottom_header": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[3, 0, 1, 1], [4, 0, 1, 1], [5, 0, 1, 1], 
+					[3, 1, 1, 1], [4, 1, 1, 1], [5, 1, 1, 1], 
+					[3, 2, 1, 1], [4, 2, 1, 1], [5, 2, 1, 1]
+				], 
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png"
+	},
+	
+	"dopesheet_track_panel_search": {
+		width: "60%", 
+		height: "18dpi_px", 
+		font_size: 8, 
+		clip: ["2dpi_px"]
+	},
+	
+	"dope_sheet_track_panel_tab": {
+		base: "#00000000", 
+		width_max: "250dpi_px", 
+		width_min: "50dpi_px"
+	},
+	
+	"dopesheet_btn_controls": {
+		vector_icon_size: "22dpi_px", 
+		width: "22dpi_px", 
+		height: "22dpi_px", 
+		frame_name: "", 
+		up_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		deactivated_style: "button_deactivated_fonticon", 
+		reactivated_style: "button_reactivated_fonticon"
+	},
+	
+	"dopesheet_btn_track": {
+		base: "dopesheet_btn_controls", 
+		vector_icon_size: "20dpi_px", 
+		width: "20dpi_px", 
+		height: "20dpi_px", 
+		margin_left: "8dpi_px", 
+		margin_right: "8dpi_px"
+	},
+	
+	"dopesheet_btn_splitkey": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_split"], 
+		width: "27dpi_px", 
+		height: "27dpi_px", 
+		vector_icon_size: "27dpi_px", 
+		clip: ["1dpi_px"], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_btn_deletekey": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_delete"], 
+		width: "27dpi_px", 
+		height: "27dpi_px", 
+		vector_icon_size: "27dpi_px", 
+		clip: ["0dpi_px"], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_btn_addkey": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_add"], 
+		width: "27dpi_px", 
+		height: "27dpi_px", 
+		vector_icon_size: "27dpi_px", 
+		clip: ["0dpi_px"], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_btn_events": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_label"], 
+		width: "27dpi_px", 
+		height: "27dpi_px", 
+		vector_icon_size: "27dpi_px", 
+		clip: ["0dpi_px"], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_btn_autokey": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_keyframe_auto"], 
+		width: "27dpi_px", 
+		height: "27dpi_px", 
+		vector_icon_size: "27dpi_px", 
+		clip: ["0dpi_px"], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dopesheet_btn_dropdown": {
+		font_icon: ["General_IDE_Icons", "IDE_icon_arrow_down"], 
+		vector_icon_size: "10dpi_px", 
+		clip: ["3dpi_px", "0dpi_px", "3dpi_px", "0dpi_px"]
+	},
+	
+	"dopesheet_btn_play": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_play"], 
+		vector_icon_size: "24dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"dopesheet_btn_stop": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_pause"], 
+		vector_icon_size: "24dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"dopesheet_btn_gotoend": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_end"], 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"dopesheet_btn_gotostart": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_beginning"], 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"dopesheet_btn_playback": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_loop"], 
+		vector_icon_size: "24dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"dopesheet_btn_playback_pingpong": {
+		base: "dopesheet_btn_playback", 
+		font_icon: ["dope_sheet_icon_font", "ds_pingpong"]
+	},
+	
+	"dopesheet_btn_menu": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_menu"]
+	},
+	
+	"dopesheet_btn_add_label": {
+		base: "dopesheet_btn_controls", 
+		font_icon: ["dope_sheet_icon_font", "ds_add_label"]
+	},
+	
+	"dopesheet_btn_track_header": {
+		base: "dopesheet_btn_track", 
+		mouse_events: "true", 
+		icon_colour: "#FFFFFFFF", 
+		label_colour: "#FFFFFFFF", 
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#00000000", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#00000000", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"dopesheet_btn_track_search": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_search"], 
+		margin_right: "0dpi_px"
+	},
+	
+	"dopesheet_btn_track_search_nav_prev": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_prevkey"], 
+		margin_left: "0dpi_px", 
+		margin_right: "0dpi_px"
+	},
+	
+	"dopesheet_btn_track_search_nav_next": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_nextkey"], 
+		margin_left: "0dpi_px", 
+		margin_right: "0dpi_px"
+	},
+	
+	"dopesheet_btn_track_search_nav_counter": {
+		margin_left: "8dpi_px", 
+		margin_right: "8dpi_px"
+	},
+	
+	"dopesheet_btn_track_collapse_all": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_collapse_all"], 
+		margin_right: "0dpi_px", 
+		vector_icon_size: "26dpi_px", 
+		clip: ["1dpi_px", "1dpi_px", "1dpi_px", "1dpi_px"]
+	},
+	
+	"dopesheet_btn_track_expand_all": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_expand_all"], 
+		margin_right: "0dpi_px", 
+		vector_icon_size: "26dpi_px", 
+		clip: ["1dpi_px", "1dpi_px", "1dpi_px", "1dpi_px"]
+	},
+	
+	"dopesheet_btn_track_collapse": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_collapse"]
+	},
+	
+	"dopesheet_btn_track_isolate": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_isolate"], 
+		margin_left: "0dpi_px", 
+		margin_right: "0dpi_px", 
+		clip: ["1dpi_px", "1dpi_px", "0dpi_px", "0dpi_px"], 
+		height: "20dpi_px", 
+		width: "20dpi_px"
+	},
+	
+	"dopesheet_btn_track_visible": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_visible"], 
+		clip: ["0dpi_px", "1dpi_px", "1dpi_px", "0dpi_px"]
+	},
+	
+	"dopesheet_btn_track_lock": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_lock"], 
+		clip: ["-1dpi_px", "-1dpi_px", "-1dpi_px", "-1dpi_px"]
+	},
+	
+	"dopesheet_btn_track_event": {
+		base: "dopesheet_btn_track_header", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_event"], 
+		clip: ["-1dpi_px", "-1dpi_px", "-1dpi_px", "-1dpi_px"]
+	},
+	
+	"dopesheet_btn_track_add": {
+		base: "dopesheet_btn_track", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_addtrack"], 
+		vector_icon_size: "19dpi_px", 
+		width: "19dpi_px", 
+		height: "19dpi_px", 
+		margin_left: "5dpi_px", 
+		margin_right: "5dpi_px"
+	},
+	
+	"dopesheet_btn_track_copy": {
+		base: "dopesheet_btn_track", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_copytrack"], 
+		vector_icon_size: "19dpi_px", 
+		width: "19dpi_px", 
+		height: "19dpi_px", 
+		margin_left: "5dpi_px", 
+		margin_right: "5dpi_px"
+	},
+	
+	"dopesheet_btn_track_new_group": {
+		base: "dopesheet_btn_track", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_newgroup"], 
+		vector_icon_size: "19dpi_px", 
+		width: "19dpi_px", 
+		height: "19dpi_px", 
+		margin_left: "5dpi_px", 
+		margin_right: "5dpi_px"
+	},
+	
+	"dopesheet_btn_track_new_clipping_mask": {
+		base: "dopesheet_btn_track", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_clippingmask"], 
+		vector_icon_size: "19dpi_px", 
+		width: "19dpi_px", 
+		height: "19dpi_px", 
+		margin_left: "5dpi_px", 
+		margin_right: "5dpi_px"
+	},
+	
+	"dopesheet_btn_track_delete": {
+		base: "dopesheet_btn_track", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_deletetrack"], 
+		vector_icon_size: "20dpi_px", 
+		width: "20dpi_px", 
+		height: "20dpi_px", 
+		margin_left: "5dpi_px", 
+		margin_right: "5dpi_px"
+	},
+
+  "dope_sheet_vertical_splitter": {
+    frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+    position: [
+      [ 1, 1, 1, 1 ],
+      [ 1, 1, 1, 1 ],
+      [ 0, 0, 1, 1 ],
+      [ 1, 1, 1, 1 ],
+      [ 1, 1, 1, 1 ],
+      [ 0, 0, 1, 1 ],
+      [ 0, 0, 1, 1 ],
+      [ 0, 0, 1, 1 ],
+      [ 0, 0, 1, 1 ]
+    ],
+    colour: "#FFFFFFFF"
+  },
+
+  "dope_sheet_animcurve_vertical_splitter": {
+    "base": "dope_sheet_vertical_splitter",
+    "min_px_size": "54dpi_px"
+  },
+
+  "dope_sheet_animcurve_vertical_splitter_disabled": {
+    "base": "dope_sheet_vertical_splitter",
+    "min_px_size": "0dpi_px"
+  },
+	
+	"dope_sheet_track_panel_container": {
+		left: "6dpi_px", 
+		right: "0dpi_px", 
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png", 
+		position: [
+					[3, 0, 1, 1], [4, 1, 1, 1], [3, 0, 1, 1], 
+					[3, 0, 1, 1], [4, 1, 1, 1], [3, 0, 1, 1], 
+					[3, 0, 1, 1], [4, 1, 1, 1], [3, 0, 1, 1]
+				], 
+		colour: "#FFFFFFFF"
+	},
+	
+	"dope_sheet_track_panel_btn_menu": {
+		base: "button_up", 
+		width: "21dpi_px", 
+		height: "21dpi_px", 
+		icon: "DopeSheet/ds_trackpanel_track_menu.png", 
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"dopesheet_empty_description_label": {
+		width: "100%", 
+		halign: "hAlignCentre", 
+		colour: "#99FFFFFF"
+	},
+	
+  "dopesheet_ace_label": {
+    width: "100%", 
+		halign: "hAlignCentre", 
+		colour: "#b0FFFFFF"
+  },
+
+	"dopesheet_empty_icon": {
+		vector_icon_size: "32dpi_px", 
+		width: "32dpi_px", 
+		height: "32dpi_px", 
+		margin_top: "12dpi_px", 
+		margin_bottom: "12dpi_px", 
+		clip: ["4dpi_px"], 
+		icon_colour: "#ffffffff"
+	},
+	
+	"dopesheet_empty_tracks_icon": {
+		base: "dopesheet_empty_icon", 
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_blank"]
+	},
+	
+	"dopesheet_empty_timeline_icon": {
+		base: "dopesheet_empty_icon", 
+		font_icon: ["dope_sheet_icon_font", "ds_timeline_blank_bg"], 
+		clip: ["6dpi_px", "0dpi_px", "6dpi_px", "0dpi_px"], 
+		colour: "#FF464646"
+	},
+	
+	"dopesheet_empty_timeline_icon_icon": {
+		colour: "#FF464646"
+	},
+	
+	"dopesheet_empty_timeline_icon_label": {
+		font_icon: ["dope_sheet_icon_font", "ds_timeline_blank"], 
+		vector_icon_size: "20dpi_px", 
+		bottom: "2dpi_px", 
+		colour: "#FFA7A7A7", 
+		mouse_events: "False"
+	},
+	
+	"dopesheet_timeline": {
+		left: "0dpi_px", 
+		top: "0dpi_px", 
+		width: "100%"
+	},
+
+  "dopesheet_empty_curve_icon": {
+    width: "32dpi_px", 
+		height: "32dpi_px",
+    icon_flags: "Centre",
+    font_icon: ["dope_sheet_icon_font", "ds_anim_curves"],
+    vector_icon_size: "22dpi_px", 
+    colour: "#FF808080",
+    icon_colour: "#FF808080",
+    mouse_events: "False"
+  },
+
+  "shared_curve_icon": {
+    width: "20dpi_px", 
+		height: "20dpi_px",
+    left:"0px",
+    icon_flags: "Centre",
+    font_icon: ["dope_sheet_icon_font", "ds_shared_curve"],
+    vector_icon_size: "14dpi_px",
+    colour: "#FF00FFF6",
+    mouse_events: "False"
+  },
+
+  "invalid_curve_icon":{
+    base:"button_invalid",
+    width: "20dpi_px", 
+	  height: "20dpi_px",
+    margin_right:"11dpi_px",
+    icon_flags: "Centre",
+    font_icon: ["dope_sheet_icon_font", "ds_exclamation_mark"],
+    vector_icon_size: "11dpi_px",
+    mouse_events: "False"
+   },
+
+   "listview_warning_icon":{
+     width:"16dpi_px",
+     height:"16dpi_px",
+     right:"0px",
+     bottom:"0px",
+     image_flags: "Stretch, Centre, KeepAspectRatio",
+     image:"WarningTriangle32.png",
+     mouse_events: "False"
+   },
+
+  "wrapped_small_label":{
+    font_size:7,
+    colour: "#FF808080",
+    auto_size: "false", 
+		mouse_events: "false", 
+		word_wrap: "true"
+  },
+
+  "browse_button_invalid":{
+    base:"button_invalid",
+    icon_flags: "Centre",
+    font_icon: ["dope_sheet_icon_font", "ds_exclamation_mark"],
+    vector_icon_size: "15dpi_px",
+    localise_name:"SeqDopeSheet_InvalidSharedCurve",
+    mouse_events: "True",
+    width: "200dpi_px", 
+   },
+
+  "browse_button_invalid_label": {
+		halign: "hAlignCentre",
+    auto_size: "false",
+    left: "0px",
+    right: "24dpi_px"
+	},
+
+}
