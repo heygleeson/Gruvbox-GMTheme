@@ -12,7 +12,7 @@ Please open an [issue](https://github.com/heygleeson/gruvbox-gmtheme) if you not
 ---
 
 ## Install
-1. Download the [latest release]()
+1. Download the [latest release](https://github.com/heygleeson/Gruvbox-GMTheme/releases/)
 2. Navigate to `C:\ProgramData\GameMakerStudio2\Skins`
 3. In GameMaker, navigate to `File > Preferences`, then `General Settings > IDE Skin > Gruvbox`, then click `Apply`.
 4. Restart GameMaker.
