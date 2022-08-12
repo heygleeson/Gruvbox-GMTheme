@@ -20,10 +20,10 @@ Please open an [issue](https://github.com/heygleeson/gruvbox-gmtheme) if you not
 ## Troubleshooting
 
 ### Which version should I use?
-> IDE version 2022.6 or later? `Gruvbox_GMSkin_BETA.zip`
-> Using an older version? `Gruvbox_GMSkin_pre2022.6_BETA.zip`
+> IDE version 2022.6 or later? `Gruvbox_GMTheme_BETA.zip`
+> Using an older version? `Gruvbox_GMTheme_pre2022.6_BETA.zip`
 
-At some point around mid-2022, YoYo updated how Skins work behind the scenes, by including a new `/Themes/` folder that contains all colour values for the skin in a single file, rather than listing them individually throughout dozens of `styles` files. This makes it easier to maintain skins in the future (and possibly make skin 'variants').
+At some point around mid-2022, YoYo updated how skins work behind the scenes, by including a new `/Themes/` folder that contains all colour values for the skin in a single file, rather than listing them individually throughout dozens of `styles` files. This makes it easier to maintain skins in the future (and possibly make skin 'variants').
 
 However, if you are not on the latest release of GameMaker, this is unsupported. Fortunately, I have made a `pre2022.6` version of this theme that should hopefully cover most previous releases. 
 
